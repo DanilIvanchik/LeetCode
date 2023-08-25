@@ -15,6 +15,7 @@ public class StringCompression {
         List<String> characterList = new ArrayList<>();
         char current = chars[0];
         int count = 0;
+        String s = "";
 
         for (int i = 0; i < chars.length; i ++){
             char c = chars[i];
@@ -31,7 +32,6 @@ public class StringCompression {
             }
         }
 //
-//        System.out.println(characterList);
 
         return characterList.size();
     }
