@@ -10,6 +10,10 @@ public class MaxNumberOfKSumPairs {
     //Memory: 55.19MB
     //Beats 70.77% of users with Java
 
+    //TODO:You are given an integer array nums and an integer k. In one operation, you can pick two
+    // numbers from the array whose sum equals k and remove them from the array. Return the maximum
+    // number of operations you can perform on the array.
+
     public int maxOperations(int[] nums, int k) {
 
         Arrays.sort(nums);
