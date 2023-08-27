@@ -1,6 +1,15 @@
 import java.util.Arrays;
 
 public class MaxNumberOfKSumPairs {
+
+    //Lvl: Medium
+
+    //Runtime: 18ms
+    //Beats 97.52% of users with Java
+
+    //Memory: 55.19MB
+    //Beats 70.77% of users with Java
+
     public int maxOperations(int[] nums, int k) {
 
         Arrays.sort(nums);
