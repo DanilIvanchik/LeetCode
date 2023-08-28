@@ -1,5 +1,11 @@
 import junit.framework.TestCase;
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import static org.junit.Assert.*;
 
 public class MaximumNumberOfVowelsInASubstringOfGivenLengthTest{
@@ -11,7 +17,11 @@ public class MaximumNumberOfVowelsInASubstringOfGivenLengthTest{
         String s = "hello";
         int k = 2;
         assertEquals(1, maxVowels.maxVowels(s, k));
-    }
+
+        Map<String, String> d = new HashMap<>();
+        List<String> ss = new ArrayList<>();
+        ss.forEach(System.out::println);
+;    }
 
     @Test
     public void testMaxVowelsWithLongString() {
