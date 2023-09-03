@@ -4,6 +4,10 @@ import java.util.HashMap;
 
 public class UniqueNumberOfOccurrences {
 
+    public static void main(String[] args) {
+        System.out.println();
+    }
+
     //Lvl: Easy
 
     //Runtime: 2ms
